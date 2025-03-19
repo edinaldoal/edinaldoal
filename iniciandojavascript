@@ -1,1 +1,12 @@
-
+// Função para contar de 1 até 80, imprimindo apenas números ímpares
+const contarImpares = (limite) => {
+// Laço que percorre os números até o limite
+for (let i = 1; i <= limite; i++) {
+// Verifica se o número é ímpar
+if (i % 2 !== 0) {
+console.log(i); // Imprime o número ímpar
+}
+}
+};
+// Chamando a função com o limite 80
+contarImpares(80);
